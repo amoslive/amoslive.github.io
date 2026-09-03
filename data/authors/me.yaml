@@ -1,0 +1,54 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Amos
+  given: Amos
+  family: ''
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+
+status:
+  icon: "💡"
+
+role: Developer & Builder
+
+bio: |
+  我关注产品体验、工程质量，以及那些能让复杂问题变简单的细节。
+  保持好奇，持续学习，认真构建真正有用的产品。
+
+links:
+  - icon: brands/github
+    url: https://github.com/amoslive
+    label: GitHub
+
+interests:
+  - Product Development
+  - Web Technologies
+  - Open Source
+  - Creative Coding
+
+education: []
+experience: []
+
+skills:
+  - name: 技术能力
+    items:
+      - label: Web Development
+        level: 4
+      - label: Product Engineering
+        level: 4
+      - label: Open Source
+        level: 4
+
+languages:
+  - name: 中文
+    level: 5
+    label: Native
+  - name: English
+    level: 3
+    label: Professional
+
+awards: []
