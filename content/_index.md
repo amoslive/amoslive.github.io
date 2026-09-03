@@ -8,7 +8,7 @@ sections:
   - block: resume-biography-3
     id: about
     content:
-      username: me
+      username: amos
       text: ''
       headings:
         about: 关于我

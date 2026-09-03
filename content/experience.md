@@ -9,7 +9,7 @@ design:
 sections:
   - block: resume-experience
     content:
-      username: me
+      username: amos
     design:
       date_format: '2006 年 1 月'
       is_education_first: false
@@ -17,15 +17,15 @@ sections:
   - block: resume-skills
     content:
       title: 技术能力
-      username: me
+      username: amos
 
   - block: resume-awards
     content:
       title: 荣誉
-      username: me
+      username: amos
 
   - block: resume-languages
     content:
       title: 语言
-      username: me
+      username: amos
 ---

@@ -15,7 +15,7 @@ hugo server
 
 ## 编辑内容
 
-- 个人资料：`data/authors/me.yaml`
+- 个人资料：`data/authors/amos.yaml`
 - 首页区块：`content/_index.md`
 - 导航菜单：`config/_default/menus.yaml`
 - 站点配置：`config/_default/hugo.yaml` 和 `params.yaml`

@@ -131,6 +131,8 @@ jobs:
         HUGO_ENVIRONMENT: production
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
+        # Author data is used by cached Hugo Blox fragments; clear stale data between deployments.
+        rm -rf resources /tmp/hugo_cache_runner
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
