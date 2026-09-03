@@ -13,11 +13,15 @@ name:
 status:
   icon: "💡"
 
-role: Developer & Builder
+role: Software Engineer & AI Explorer
 
 bio: |
-  我关注产品体验、工程质量，以及那些能让复杂问题变简单的细节。
-  保持好奇，持续学习，认真构建真正有用的产品。
+  Amos 是一名关注人工智能与现代软件工程的开发者，致力于构建简单、可靠且真正有用的数字产品。
+  他的兴趣涵盖智能系统、人机交互和开源技术，也乐于探索研究与工程之间的交叉地带。
+
+affiliations:
+  - name: Independent Research Lab
+    url: https://github.com/amoslive
 
 links:
   - icon: brands/github
@@ -25,22 +29,60 @@ links:
     label: GitHub
 
 interests:
-  - Product Development
-  - Web Technologies
-  - Open Source
-  - Creative Coding
+  - Artificial Intelligence
+  - Human-Computer Interaction
+  - Software Engineering
+  - Open Source Systems
 
-education: []
-experience: []
+education:
+  - degree: M.Sc. Computer Science
+    institution: Institute of Intelligent Systems
+    start: 2024-10-01
+    summary: |
+      研究方向包括生成式人工智能、自然语言处理与以人为中心的软件系统。
+  - degree: B.Eng. Software Engineering
+    institution: School of Computing
+    start: 2020-09-01
+    end: 2024-06-30
+    summary: |
+      专注于软件架构、Web 开发、数据结构与分布式系统。
+
+experience:
+  - role: Independent Developer
+    org: Open Source Community
+    start: 2024-01-01
+    summary: |
+      设计并开发开源工具和 Web 产品，关注开发体验、系统可靠性与清晰的用户界面。
+    button:
+      text: 查看项目
+      url: https://github.com/amoslive?tab=repositories
+      icon: hero/code-bracket
+  - role: Software Engineering Intern
+    org: Digital Product Studio
+    start: 2023-06-01
+    end: 2023-12-31
+    summary: |
+      参与现代 Web 应用的产品设计、前端实现与服务端 API 开发。
 
 skills:
   - name: 技术能力
     items:
       - label: Web Development
-        level: 4
+        level: 5
       - label: Product Engineering
         level: 4
       - label: Open Source
+        level: 4
+      - label: AI & Data
+        level: 4
+
+  - name: 研究与协作
+    items:
+      - label: Technical Writing
+        level: 4
+      - label: Prototyping
+        level: 5
+      - label: Team Collaboration
         level: 4
 
 languages:
@@ -51,4 +93,9 @@ languages:
     level: 3
     label: Professional
 
-awards: []
+awards:
+  - title: Open Source Contributor Award
+    awarder: Developer Community
+    date: "2025-12-01"
+    summary: 表彰在开源项目与开发者社区中的持续贡献。
+    icon: hero/trophy
