@@ -18,6 +18,8 @@ sections:
       background:
         gradient_mesh:
           enable: true
+          primary: '#022c22'
+          secondary: '#064e3b'
       name:
         size: lg
       avatar:
